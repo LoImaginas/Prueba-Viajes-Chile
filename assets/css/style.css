@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    }
+ .navbar-collapse {
+  flex-grow: 0;
+
+ }
+
+ .navbar-expand-lg {
+    color:white
+ }
+
+ .navbar-brand {
+    color: white;
+ }
+
+.text-center {
+    color: white;
+    text-align: justify;
+}
+.card {
+    background-color: dodgerblue;
+    color: white;
+}
