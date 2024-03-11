@@ -22,8 +22,9 @@
     font-size: 16px;
 }
 .card {
-    background-color: dodgerblue;
+    background-color:darkcyan;
     color: white;
+
 }
 
 .form-label {
@@ -40,3 +41,8 @@
 .container-fluid {
     color: white;
 }
+.btn {
+    background: darkcyan;
+}
+
+

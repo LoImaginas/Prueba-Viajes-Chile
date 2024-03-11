@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -31,6 +31,7 @@
                     <ul class="navbar-nav flex-shrink-1 pe-2 text-end">
                         <li class="nav-item">
                             <a class="nav-link active " aria-current="page" href="#">Inicio</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Quienes somos</a>
@@ -69,13 +70,12 @@
         </button>
       </div>
 
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark py-5">
         <div class="container px-2 text-center">
             <div class="d-none d-md-block">
-            <div class="row gx-5">
+            <div class="row gx-5 id=seccion1">
                 <p class="text-center"><br>¿QUIENES SOMOS?</p>
                 <div class="text-success">
-                    <hr>
                 </div>
               <div class="col">
                 <i class="fa-sharp fa-solid fa-plane"></i>
@@ -93,8 +93,8 @@
             </div>
         </div>
     
-        <div class="card-body">
-            <h5 class="card-title"><br>DESTACADOS</h5> 
+        <div class="card-body py-5 id=seccion2">
+            <h5 class="card-title">DESTACADOS</h5> 
             <div class="text-success">
                 <hr>
             </div>
@@ -139,8 +139,8 @@
             </div>
         </div>   
         
-        <div class="form-label">
-            <p class="text-center"><br>CONTACTO</p>
+        <div class="form-label py-5 id=seccion3">
+            <p class="text-center">CONTACTO</p>
             <div class="text-success">
                 <hr>
             </div>
@@ -158,21 +158,29 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <input class="btn btn-primary" type="submit" value="enviar">
+
         </div>
 
 
-    <div class="container-fluid">
-        <p>VIAJES CHILE</p>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-square-facebook"></i>
+
+
+    <br>
+    <footer class="bg-info text-center text-white px-3 py-3">
+    <div class="row">
+        <div class="col-12 col-sm-6">
+          <h4>VIAJES CHILE</h4>
         </div>
+       <div class="col-12 col-sm-6">
+        <i class="fa-brands fa-github"></i><a href="www.github.com"></a>
+        <i class="fa-brands fa-linkedin-in"></i><a href="www.linkedin.com"></a>
+        <i class="fa-brands fa-twitter"></i><a href="www.twitter.com"></a>
+        <i class="fa-brands fa-square-facebook"></i><a href="www.facebook.com"></a>
+      </div>
+    </div> 
+     </div>
     </div>
-
+    </footer>
 <body>
-
-
 
 
 
