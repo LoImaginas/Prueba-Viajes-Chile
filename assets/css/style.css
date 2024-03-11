@@ -19,8 +19,24 @@
 .text-center {
     color: white;
     text-align: justify;
+    font-size: 16px;
 }
 .card {
     background-color: dodgerblue;
+    color: white;
+}
+
+.form-label {
+    color: white;
+    text-align: center;
+}
+
+.card-title {
+    color: white;
+    font-family: Raleway;
+    text-align: center;
+    font-size: 16px;
+}
+.container-fluid {
     color: white;
 }
